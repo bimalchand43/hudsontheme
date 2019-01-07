@@ -1,0 +1,772 @@
+/*  Media Queries
+--------------------------- */
+
+@media (min-width: 1200px){
+
+
+
+
+
+}
+
+@media only screen and (max-width:1199px){
+.main-navigation > ul > li.apply-button, 
+.main-navigation > ul > li.donate-button {
+    margin: 42px 0;
+}
+.site-branding img {
+    max-width: 130px;
+}
+.main-navigation > ul > li {
+    margin: 21px 9px 18px;
+}
+.home .banner-section {
+    padding: 135px 0 140px;
+}
+.banner-section {
+    padding: 110px 0 100px;
+}
+.info-content-section .entry-title {
+    font-size: 29px;
+}
+.promotional-bar .entry-title {
+    width: 59%;
+}
+.widget-title {
+    font-size: 18px;
+}
+.team-img {
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
+.team-item {
+    padding: 0 35px;
+}
+.story-item-wrapper {
+    margin: 106px 0 0;
+}
+.culture-section .post-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+}
+.culture-section .post-wrapper .col-sm-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.member-name {
+    font-size: 18px;
+}
+.member-habbit {
+    font-size: 16px;
+}
+.contact-title {
+    font-size: 28px;
+}
+
+
+}
+
+/* Tablet Portrait size to standard 1024 (devices and browsers) */
+
+@media only screen and (max-width:1023px){
+.main-navigation > ul > li:first-child {
+    margin-left: 0;
+}
+.hgroup-right {
+    width: calc(100% - 155px);
+}
+.site-branding {
+    margin-right: 5px;
+    width: 150px;
+}
+.main-navigation > ul > li {
+    margin: 21px 4px 18px;
+}
+.main-navigation ul li a {
+    font-size: 13px;
+}
+.main-navigation ul li.apply-button a, 
+.main-navigation ul li.donate-button a {
+    font-size: 14px;
+    padding: 7px 19px;
+}
+.banner-section .entry-title {
+    font-size: 38px;
+}
+.info-image {
+    height: 245px;
+    width: 245px;
+}
+.info-content-section .entry-title {
+    font-size: 20px;
+}
+.featured-section .col-sm-3 {
+    width: 50%;
+    float: left;
+}
+.site-footer .promotional-bar .box-button {
+    font-size: 22px;
+    padding: 8px 40px 8px;
+}
+.promotional-bar .entry-title {
+    font-size: 30px;
+    width: 55%;
+}
+.site-footer .widget {
+    margin: 0 0 40px;
+}
+.widget-area {
+    padding: 57px 0 23px;
+}
+.site-footer div[class*="col-sm"]{
+    width: 50%;
+}
+.team-img {
+    height: 150px;
+    width: 150px;
+}
+.team-item {
+    padding: 0 20px 0px;
+}
+.heading .entry-title {
+    font-size: 24px;
+}
+.story-item {
+    margin: 0 15px 100px;
+    width: 45%;
+    width: calc(50% - 40px);
+    width: -webkit-calc(50% - 40px);
+}
+.story-item:nth-last-of-type(3), 
+.story-item:nth-last-of-type(1), 
+.story-item:nth-last-of-type(2) {
+    margin-bottom: 100px;
+}
+.story-section {
+    padding: 70px 0 0px;
+}
+.culture-section .post .entry-title {
+    font-size: 19px;
+}
+.culture-section .featured-image img {
+    width: 100%;
+}
+.member-item {
+    width: 33.3%;
+}
+.member-item:nth-child(4n+1){
+    clear: none;
+}
+.member-item:nth-child(3n+1){
+    clear: both
+}
+.contact-title {
+    font-size: 24px;
+}
+.quick-contact-wrapper {
+    padding: 35px 0 10px 20px;
+}
+.quick-contact-icon {
+    margin-right: 10px;
+    width: 60px;
+}
+.quick-contact-text {
+    width: 77%;
+    width: calc(100% - 75px);
+    width: -webkit-calc(100% - 75px);
+}
+.quick-contact-text h4 {
+    font-size: 16px;
+}
+.quick-contact-text a,
+.quick-contact-text p {
+    font-size: 15px;
+}
+.so-widget-sow-features-default-2ad00cf1615a .sow-features-list .sow-features-feature {
+    padding: 0 15px;
+}
+
+
+}
+@media only screen and (max-width:768px){
+
+.tribe-events-sub-nav li a {
+    background: transparent;
+}
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:767px){
+    .error-404 {
+        width: 100%;
+        margin: 30px auto;
+        padding: 0 10px;
+    }
+    .error-404 h1 {
+        font-size: 15px;
+    }
+    .error-404 .page-header {
+        margin: 20px 0 10px;
+    }
+.site-branding {
+    max-width: 155px;
+    position: absolute;
+    top: 47px;
+    z-index: 999;
+}
+.site-branding img {
+    max-width: 90px;
+}
+.mean-container .mean-bar {
+    z-index: 999;
+}
+.mean-container a.meanmenu-reveal {
+    color: #03548b;
+}
+.mean-container a.meanmenu-reveal span {
+    background: #03548b;
+}
+.mean-container .mean-nav {
+    background: rgb(3, 84, 139) none repeat scroll 0 0;
+}
+.mean-container .mean-nav ul li a:hover{
+    background: #d8dd38;
+}
+.mean-container .mean-nav ul li li a{
+    opacity: 1
+}
+.banner-section .entry-title {
+    font-size: 30px;
+}
+.info-content-section {
+    padding: 30px 0 0;
+    text-align: center;
+}
+.info-content-section .entry-title {
+    font-size: 22px;
+}
+.entry-header.heading {
+    margin-bottom: 20px;
+}
+.heading .entry-title {
+    font-size: 22px;
+}
+.info-section-wrapper {
+    background: rgb(242, 242, 242) none repeat scroll 0 0;
+    padding: 50px 0 40px;
+}
+.info-image {
+    margin: 0 auto;
+}
+.featured-section {
+    padding: 50px 0 30px;
+}
+.team-section {
+    padding: 50px 0;
+}
+.promotional-bar .entry-title {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+.promotional-bar .container {
+    display: block;
+    text-align: center;
+}
+.site-footer .promotional-bar .box-button {
+    margin: 0 7px;
+}
+.button-section {
+    display: block;
+}
+.promotional-bar {
+    background: rgb(3, 84, 139) none repeat scroll 0 0;
+    padding: 25px 0 30px;
+}
+.site-footer div[class*="col-sm"] {
+    width: 100%;
+}
+.copy-right {
+    text-align: center;
+    display: block;
+}
+.banner-section {
+    padding: 65px 0 70px;
+    margin-top: 69px;
+}
+.site-generator-menu {
+    float: none;
+    margin: 15px 0 0;
+    text-align: center;
+}
+.site-generator-menu li {
+    display: inline-block;
+    float: none;
+}
+.mean-bar {
+    top: 37px;
+}
+.admin-bar .mean-bar,
+.admin-bar .top-header {
+    top: 82px;
+}
+.admin-bar .site-branding {
+    top: 92px;
+}
+.mean-container .mean-bar {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.top-header {
+    display: none;
+}
+.close~.top-header{
+    display:block;
+}
+.top-menu-toggle_bar_wrapper {
+    background: rgb(180, 184, 31) none repeat scroll 0 0;
+    height: 37px;
+    width: 100%;
+}
+.top-menu-toggle_bar_wrapper {
+    display: block !important;
+}
+
+.top-menu-toggle_trigger {
+    padding: 11px 0 0;
+}
+.top-menu-toggle_trigger {
+    height: 37px;
+    padding: 8px 0 0;
+}
+.top-menu-toggle_trigger {
+    height: 37px;
+    margin: 0 auto;
+    padding: 8px 0 0;
+    position: relative;
+    width: 50px;
+}
+.top-menu-toggle_bar_wrapper.close .top-menu-toggle_trigger > span, .top-menu-toggle_bar_wrapper.close .top-menu-toggle_trigger > span:last-child {
+    top: 18px;
+}
+.top-menu-toggle_bar_wrapper.close .top-menu-toggle_trigger > span {
+    left: 10px;
+    position: absolute;
+    top: 18px;
+    transform: rotate(45deg);
+    transition: all 0.4s ease-in-out 0s;
+}
+.top-menu-toggle_bar_wrapper.close .top-menu-toggle_trigger > span:nth-child(2) {
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+.top-menu-toggle_bar_wrapper.close .top-menu-toggle_trigger > span:last-child {
+    top: 18px;
+    transform: rotate(-225deg);
+    transition: all 0.4s ease-in-out 0s;
+}
+.top-menu-toggle_trigger > span {
+    margin-bottom: 6px;
+    width: 28px;
+}
+.top-menu-toggle_trigger > span {
+    margin-bottom: 8px;
+    width: 33px;
+}
+.top-menu-toggle_trigger > span {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border-radius: 5px;
+    display: block;
+    height: 2px;
+    margin: 0 auto 7px;
+    transition: all 0.4s ease-in-out 0s;
+    width: 33px;
+}
+.top-header {
+    background: rgb(3, 84, 139) none repeat scroll 0 0;
+    left: 0;
+    padding:0;
+    position: absolute;
+    right: 0;
+    top: 37px;
+    z-index: 99999999;
+}
+.top-header .container{
+    padding: 0;
+}
+.topbar-menu {
+    float: none;
+    max-width: 100%;
+}
+.topbar-menu li {
+    border-bottom: 1px solid rgb(2, 59, 97);
+    border-top: 1px solid rgb(53, 118, 162);
+    float: none;
+    margin: 0;
+    border-right: none;
+    border-left: none;
+}
+.topbar-menu li:first-child {
+    border-top: none;
+}
+.topbar-menu li:last-child {
+    border-bottom: none;
+}
+.topbar-menu a {
+    display: block;
+    margin: 0;
+    padding: 10px 10px;
+}
+.topbar-menu a:hover{
+    background: #023c62;
+} 
+.top-menu-toggle_bar_wrapper.close{
+    opacity: 1
+}
+.team-item {
+    border-bottom: 1px solid rgb(217, 217, 217);
+    margin-bottom: 30px;
+    padding: 0 20px 30px;
+    width: 100%;
+    border-right: none;
+}
+.team-item-wrapper .team-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.team-item-wrapper {
+    padding: 48px 0 30px;
+}
+.opportunity-section {
+    padding: 46px 0 13px;
+}
+.story-section {
+    padding: 50px 0 15px;
+}
+.brand-section {
+    padding: 50px 0;
+}
+.culture-section {
+    padding: 46px 0 20px;
+}
+.culture-section .post .entry-title {
+    font-size: 20px;
+}
+.brand-item {
+    width: 50%;
+}
+.culture-section .post-wrapper {
+    padding-top: 20px;
+}
+.program-section {
+    padding: 50px 0;
+}
+.story-item {
+    margin-bottom: 80px;
+}
+.story-item:nth-last-of-type(3), 
+.story-item:nth-last-of-type(1), 
+.story-item:nth-last-of-type(2) {
+    margin-bottom: 80px;
+}
+.story-item:last-child {
+    margin-bottom: 40px;
+}
+.member-item {
+    width: 50%;
+}
+.member-item:nth-child(3n+1){
+    clear: none
+}
+.member-item:nth-child(2n+1){
+    clear: both
+}
+.contact-form {
+    margin-bottom: 35px;
+}
+.contact-section-wrapper {
+    padding: 45px 0 50px;
+}
+.contact-section-wrapper .section-info {
+    margin-bottom: 40px;
+}
+.quick-contact-text p:last-child {
+    margin-bottom: 0;
+}
+.sponsor-section {
+    padding: 55px 0 50px;
+}
+.mean-container a.meanmenu-reveal::before {
+    box-shadow: none;
+    content: "menu";
+    font-weight: 400;
+    position: absolute;
+    right: 50px;
+    text-shadow: 0 0;
+    text-transform: uppercase;
+    top: 17px;
+    text-indent: 0;
+    font-size: 18px;
+}
+.mean-container a.meanmenu-reveal.meanclose::before{
+    content: "close";
+}
+.site-footer .widget {
+    margin: 0 0 30px;
+}
+.widget-area div[class*="col-sm"]:last-child .widget:last-child{
+    margin-bottom: 10px;
+}
+.gallery-columns-1 .gallery-item,
+.gallery-columns-2 .gallery-item,
+.gallery-columns-3 .gallery-item,
+.gallery-columns-4 .gallery-item,
+.gallery-columns-5 .gallery-item,
+.gallery-item{
+    width: 33.3%;
+}
+.member-section {
+    padding: 40px 0 40px;
+}
+.single-student-profile .col-sm-4{
+    margin-bottom: 25px;
+}
+.single-student .site-content,
+.single-alumni .site-content,
+.alumni-archive-list {
+    margin-top: 90px;
+}
+.post-type-archive-tribe_events .site-content{
+    margin-top: 45px;
+}
+
+.single-student-profile {
+    padding: 20px 0;
+}
+h1 {
+    font-size: 24px;
+}
+
+
+}
+@media only screen and (max-width:567px){
+
+    .col-xs-1,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12{
+        width: 100%;
+    }
+
+    input[type="text"], 
+    input[type="password"], 
+    textarea, 
+    input[type="email"], 
+    input[type="tel"], 
+    select{
+        width:100%;
+    }
+    .featured-section .col-sm-3 {
+    width: 100%;
+    float: none;
+}
+.featured-item .entry-title {
+    min-height: auto;
+}
+.copy-right {
+    font-size: 13px;
+}
+.story-item {
+    margin: 0 0 80px;
+    width: 100%;
+}
+.member-habbit {
+    font-size: 14px;
+}
+.member-name {
+    font-size: 16px;
+}
+.info-image {
+    height: 200px;
+    width: 200px;
+}
+.gallery-columns-1 .gallery-item,
+.gallery-columns-2 .gallery-item,
+.gallery-columns-3 .gallery-item,
+.gallery-columns-4 .gallery-item,
+.gallery-columns-5 .gallery-item,
+.gallery-item{
+    width: 50%;
+}
+
+
+
+
+}
+@media only screen and (max-width:568px){
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width:479px){
+.banner-section .entry-title {
+    font-size: 20px;
+}
+.home .banner-section {
+    padding: 50px 0 60px;
+}
+.box-button {
+    font-size: 16px;
+    padding: 8px 25px;
+}
+.heading .entry-title {
+    font-size: 18px;
+    padding: 8px 20px;
+}
+.info-section-wrapper {
+    padding: 40px 0 30px;
+}
+.info-content-section .entry-title {
+    font-size: 16px;
+}
+.banner-content .entry-header {
+    padding: 15px 0 0px;
+}
+.banner-content .box-button {
+    margin-top: 20px;
+}
+.highlight-title {
+    font-size: 14px;
+}
+.info-content-section p, body, .section-info p, .featured-item p, p {
+    font-size: 14px;
+}
+.readmore-button {
+    font-size: 14px;
+    padding: 10px 25px;
+}
+.featured-section {
+    padding: 40px 0 20px;
+}
+.featured-item .entry-title {
+    font-size: 17px;
+}
+.featured-icon {
+    margin-bottom: 20px;
+}
+.team-section {
+    padding: 40px 0;
+}
+.promotional-bar .entry-title {
+    font-size: 22px;
+}
+.site-footer .promotional-bar .box-button {
+    font-size: 18px;
+    padding: 5px 30px;
+}
+.opportunity-section {
+    padding: 36px 0 5px;
+}
+.opportunity-content p {
+    font-size: 14px;
+}
+.opportunity-content .entry-content {
+    padding-top: 0;
+}
+.story-section {
+    padding: 40px 0 5px;
+}
+.story-item-wrapper {
+    margin: 78px 0 0;
+}
+.story-item {
+    margin: 0 0 80px;
+    width: 100%;
+}
+.brand-section {
+    padding: 40px 0;
+}
+.brand-content-wrapper {
+    margin: 0;
+    padding: 30px 0 0;
+}
+.culture-section {
+    padding: 36px 0 10px;
+}
+.culture-section .post-wrapper {
+    padding-top: 10px;
+}
+.culture-section .post-wrapper .col-sm-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.program-section {
+    padding: 40px 0;
+}
+.program-section .entry-content {
+    padding: 5px 0 0;
+}
+.program-gallery {
+    padding-top: 10px;
+}
+.gallery-columns-3 .gallery-item {
+    width: 50%;
+}
+.member-item {
+    width: 100%;
+    padding: 0 0 20px;
+}
+.member-item-wrapper {
+    margin: 0;
+}
+.banner-section {
+    padding: 60px 0 40px;
+}
+.contact-section-wrapper .section-info {
+    margin-bottom: 30px;
+}
+.contact-title {
+    font-size: 20px;
+}
+.quick-contact-item {
+    padding: 25px 0;
+}
+.quick-contact-icon {
+    width: 45px;
+}
+.quick-contact-text {
+    width: 78%;
+    width: calc(100% - 60px);
+    width: -webkit-calc(100% - 60px);
+}
+.gallery-item{
+    width: 50%;
+}
+.sponsor-section {
+    padding: 30px 0 30px;
+}
+.member-section {
+    padding: 30px 0 30px;
+}
+.single-student-profile {
+    padding: 10px 0;
+}
+h1 {
+    font-size: 20px;
+}
+#tribe-geo-results h2.tribe-events-page-title, 
+h2.tribe-events-page-title {
+    font-size: 24px;
+}
+
+}
